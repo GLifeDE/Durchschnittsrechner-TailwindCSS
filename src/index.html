@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="antialiased dark:bg-gradient-to-b from-black to-slate-800 dark:text-slate-100 font-inter">
+    <header class="bg-gray-900/50 border-b border-b-slate-600">
+      <nav class="container mx-auto p-6">
+        <div
+          class="flex flex-col space-y-5 items-center justify-between md:space-y-0 md:flex-row"
+        >
+          <!-- Logo -->
+          <div class="">
+            <img src="/img/Rechner-Icon.png" alt="" class="h-20" />
+          </div>
+          <!-- Links -->
+          <div
+            class="hidden space-x-6 mx-auto text-lg items-center font-bold uppercase md:flex"
+          >
+            <a href="#" class="text-white hover:text-gray-300">Home</a>
+            <a href="#" class="text-white hover:text-gray-300">Github</a>
+            <a href="#" class="text-white hover:text-gray-300">Anleitung</a>
+            <a href="#" class="text-white hover:text-gray-300">Changelog</a>
+          </div>
+          <!-- Button -->
+          <div class="">
+            <button
+              class="bg-white rounded-full py-2 px-4 mx-auto hover:bg-gray-300 transition"
+            >
+              <div class="flex flex-row items-center justify-center space-x-3">
+                <span class="font-semibold dark:text-slate-900">DOWNLOAD</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 text-gray-900"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero">
+      <!-- Container -->
+      <div
+        class="container mx-auto mt-10 flex flex-col space-y-2 mb-32 xl:flex-row md:space-y-0"
+      >
+        <!-- Left -->
+        <div
+          class="text-center mb-16 flex flex-col space-y-12 md:text-left md:w-1/2 items-center md:items-start"
+        >
+        <div>
+          <h1 class="text-4xl md:text-5xl font-bold break-words text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">
+            Was ist der Durchschnittsrechner?
+          </h1>
+        </div>
+          <p
+            class="text-gray-500 text-md max-w-sm text-center md:text-left dark:text-slate-300"
+          >
+            Das ist ein kleines Tool, um seinen Notendurchschnitt/Zeugnisschnitt
+            berechnen zu lassen. Dieses funktioniert in der Windows
+            Eingabeaufforderung (CMD) und das ermöglicht es, die Noten sehr
+            schnell einzutragen!
+          </p>
+        </div>
+        <!-- Right -->
+        <div class="mb-16 flex flex-col md:w-1/2 items-center">
+          <img src="/img/1.png" alt="" class="rounded-xl p-6" />
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section id="features">
+      <div
+        class="container mx-auto flex flex-col item-center space-y-6 md:item-start md:flex-row md:space-y-0"
+      >
+        <!-- Left -->
+        <div class="md:w-1/2">
+          <h1
+            class="text-center text-2xl sm:text-3xl font-extrabold tracking-tight md:text-left"
+          >
+            Features
+          </h1>
+        </div>
+        <!-- Right -->
+        <div class="md:w-1/2">
+          <div class="grid grid-cols-2 gap-6 justify-between justify-items-stretch p-6">
+            <!-- Item 1 -->
+            <div class="p-6 bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl border border-slate-100 dark:border-slate-600 shadow-lg">
+              <p class="font-bold">
+                Du kannst deinen Zeugnissschnitt ausrechnen
+              </p>
+            </div>
+            <!-- Item 2 -->
+            <div class="p-6 bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl  border border-slate-100 dark:border-slate-600 shadow-lg">
+              <p class="font-bold">
+                Du kannst deine Einreichnote mit der Abschlussnote verrechnen,
+                um die Endnote zu berechnen
+              </p>
+            </div>
+            <!-- Item 3 -->
+            <div class="p-6 bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl  border border-slate-100 dark:border-slate-600 shadow-lg">
+              <p class="font-bold">It also supports the english language!</p>
+            </div>
+            <!-- Item 4 -->
+            <div class="p-6 bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl  border border-slate-100 dark:border-slate-600 shadow-lg">
+              <p class="font-bold">
+                Schnelles Ergebnis dank der Verwendung des Terminals
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Funktionsweise -->
+    <section id="funktionsweise">
+      <div
+        class="container mx-auto flex flex-col item-center space-y-6 md:item-start md:flex-row md:space-y-0"
+      >
+        <!-- Left -->
+        <div class="md:w-1/2">
+          <h1
+            class="text-center text-2xl sm:text-3xl font-extrabold tracking-tight md:text-left"
+          >
+            Funktionsweise
+          </h1>
+        </div>
+        <!-- Right -->
+        <div class="md:w-1/2 p-6 space-y-6 text-left">
+          <!-- Item 1 -->
+          <div class="flex flex-col bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl p-3  border border-slate-100 dark:border-slate-600 shadow-lg">
+            <div class="flex flex-row justify-between">
+              <p class="inline font-bold pr-3  text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">01.</p>
+              <p class="inline font-bold pr-3">Du kannst auswählen, welche Art von Rechner du verwenden möchtest</p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex flex-col bg-slate-200 dark:bg-slate-800/50 backdrop-blur  rounded-xl p-3  border border-slate-100 dark:border-slate-600 shadow-lg">
+            <div class="flex flex-row justify-between">
+              <p class="inline font-bold pr-3  text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">02.</p>
+              <p class="inline font-bold pr-3">Du wirst gefragt, wie viele Hauptfächer miteinbezogen werden sollen</p>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="flex flex-col bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl p-3  border border-slate-100 dark:border-slate-600 shadow-lg">
+            <div class="flex flex-row justify-between">
+              <p class="inline font-bold pr-3  text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">03.</p>
+              <p class="inline font-bold pr-3">Du wirst gefragt, welche Gewichtungen die Hauptfachnoten haben</p>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="flex flex-col bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl p-3  border border-slate-100 dark:border-slate-600 shadow-lg">
+            <div class="flex flex-row justify-between">
+              <p class="inline font-bold pr-3  text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">04.</p>
+              <p class="inline font-bold pr-3">Du wirst gefragt, wie viele Nebenfächer miteinbezogen werden sollen</p>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="flex flex-col bg-slate-200 dark:bg-slate-800/50 backdrop-blur rounded-xl p-3  border border-slate-100 dark:border-slate-600 shadow-lg">
+            <div class="flex flex-row justify-between">
+              <p class="inline font-bold pr-3  text-transparent bg-gradient-to-r bg-clip-text from-gradiant-cyan to-gradiant-purple">05.</p>
+              <p class="inline font-bold pr-3">Gib deine Hauptfachnoten und danach deine Nebenfachnoten ein</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner -->
+    <section id="banner" class="bg-gradient-to-br from-gradiant-cyan to-gradiant-purple">
+      <div
+        class="container flex flex-col items-center mx-auto p-6 space-y-6 justify-between mt-32 md:space-y-0 md:flex-row"
+      >
+        <div class="">
+          <h2 class="text-center text-5xl font-bold text-gray-900 md:text-left">
+            Lade es noch heute herunter!
+          </h2>
+        </div>
+        <div class="">
+          <button
+            class="bg-white rounded-full py-2 px-4 mx-auto hover:bg-gray-300 transition"
+          >
+            <div class="flex flex-row items-center justify-center space-x-3">
+              <span class="font-semibold dark:text-slate-900">DOWNLOAD</span>
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-gray-900"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900">
+      <div
+        class="container items-center text-center flex flex-col-reverse space-y-6 space-y-reverse p-6 mx-auto justify-between md:flex-row md:space-y-0 md:items-start md:text-left"
+      >
+        <!-- Logo und Version -->
+        <div class="justify-between space-y-6 md:items-start">
+          <div>
+            <img src="/img/Rechner-Icon.png" alt="" class="h-20" />
+          </div>
+          <div>
+            <p class="text-white font-bold text-lg">v4.3.2</p>
+          </div>
+        </div>
+        <!-- Links -->
+        <div class="flex flex-col text-white justify-around">
+          <a href="#" class="hover:text-gray-300">Home</a>
+          <a href="#" class="hover:text-gray-300">Github</a>
+          <a href="#" class="hover:text-gray-300">Anleitung</a>
+          <a href="#" class="hover:text-gray-300">Changelog</a>
+        </div>
+        <!-- Copyright -->
+        <div class="hidden inset-x-0 bottom-0 text-white md:flex">
+          <p>Copyright &copy; 2022, All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
