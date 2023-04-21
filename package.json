@@ -41,7 +41,6 @@
     "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
-    "postcss": "^8.4.18",
     "postcss-import": "^14.1.0",
     "postcss-js": "^4.0.0",
     "postcss-load-config": "^3.1.4",
@@ -57,15 +56,17 @@
     "run-parallel": "^1.2.0",
     "source-map-js": "^1.0.2",
     "supports-preserve-symlinks-flag": "^1.0.0",
-    "tailwindcss": "^3.2.1",
     "to-regex-range": "^5.0.1",
     "util-deprecate": "^1.0.2",
     "xtend": "^4.0.2",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
     "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
