@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./build/**/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
         inter: "'Inter', sans-serif",
       },
       colors: {
-        'gradiant-cyan': '#8ce8e0',
-        'gradiant-purple': '#a77bf3'
+        "gradiant-cyan": "#8ce8e0",
+        "gradiant-purple": "#a77bf3",
       },
     },
   },
   plugins: [],
-}
+};
